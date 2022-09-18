@@ -9,37 +9,58 @@
     <title>PortFolio</title>
 </head>
 <body>
-    <header>
-
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <i class="navbar__icon uil uil-arrow"></i>
+                Minh Huan
+            </div>
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#home" class="navbar-link">
+                        <i class="navbar__icon uil uil-estate"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#about-me" class="navbar-link">
+                        <i class="navbar__icon uil uil-user"></i>
+                        About me
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#skills" class="navbar-link">
+                        <i class="navbar__icon uil uil-file"></i>
+                        Skills
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <div class="main">
         <div id="#home" class="home-section section">
-            <nav class="navbar">
-                <div class="navbar-logo">
-                    <i class="navbar__icon uil uil-arrow"></i>
-                    Minh Huan
-                </div>
-                <ul class="navbar-list">
-                    <li class="navbar-item">
-                        <a href="#home" class="navbar-link">
-                            <i class="navbar__icon uil uil-estate"></i>
-                            Home
+            <div class="home-container container">
+                <div class="home-content">
+                    <div class="home-social">
+                        <a href="https://www.facebook.com/profile.php?id=100058605698601">
+                            <i class="home-social-icon uil uil-facebook-f"></i>
                         </a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#about-me" class="navbar-link">
-                            <i class="navbar__icon uil uil-user"></i>
-                            About me
+                        <a href="">
+                            <i class="home-social-icon uil uil-instagram"></i>
                         </a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#skills" class="navbar-link">
-                            <i class="navbar__icon uil uil-file"></i>
-                            Skills
+                        <a href="">
+                            <i class="home-social-icon uil uil-linkedin-alt"></i>
                         </a>
-                    </li>
-                </ul>
-            </nav>
+                    </div>
+                    <div class="home-data">
+                        <h1 class="home-title">Hi, I'm Minh Huân</h1>
+                        <h2 class="home-subtitle">SOFTWARE ENGINEER</h2>
+                        <p class="home-desc">I'm a K17 student at FPT University, majoring in software engineering. </p>
+                    </div>
+                    <div class="home-image">
+                        <img src="./assets/img/home-avatar.png" alt="avatar">
+                    </div>
+            </div>
         </div>
 
         <div id="#about-me" class="aboutme-section section">
